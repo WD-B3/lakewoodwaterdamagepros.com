@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lakewoodwaterdamagepros.com/sitemap.xml
+Sitemap: https://247lakewoodwaterdamagerestoration.com/sitemap.xml

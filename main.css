@@ -22,7 +22,7 @@ a:hover{color:var(--navy)}
 .nav{background:#fff;box-shadow:0 1px 0 var(--line);position:relative;z-index:60}
 .navrow{display:flex;align-items:center;justify-content:space-between;min-height:74px;gap:16px}
 .logo{display:block;flex:0 0 auto;line-height:0}
-.logo img{display:block;width:250px;height:52px}
+.logo img{display:block;width:325px;height:52px}
 .nav-toggle{display:none;background:#fff;border:2px solid var(--line);border-radius:8px;padding:9px 14px;font:700 14px 'Mulish',Arial,sans-serif;color:var(--ink);cursor:pointer}
 .menu{list-style:none;display:flex;align-items:center;gap:4px}
 .menu>li{position:relative}
@@ -188,7 +188,7 @@ table.dt td:first-child{font-weight:700;color:var(--navy);width:28%}
 .sitefoot .fphone{font-weight:800;color:var(--den);font-size:19px;margin:8px 0 4px}
 .sitefoot p{color:var(--mute);font-size:14.5px}
 .sitefoot .flogo{display:block;margin-bottom:12px;line-height:0}
-.sitefoot .flogo img{width:220px;height:46px}
+.sitefoot .flogo img{width:287px;height:46px}
 .legalrow{border-top:1px solid var(--line);margin-top:28px;padding-top:18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--mute);font-size:14px}
 .legalrow a{display:inline;margin:0 0 0 16px}
 .sticky-bar{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--navy);z-index:90;padding:10px 16px;box-shadow:0 -6px 20px rgba(0,0,0,.18)}
@@ -202,7 +202,7 @@ table.dt td:first-child{font-weight:700;color:var(--navy);width:28%}
 .contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:10px}
 @media(max-width:900px){
 .nav-toggle{display:block}
-.logo img{width:220px;height:46px}
+.logo img{width:276px;height:44px}
 .menu{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-top:1px solid var(--line);box-shadow:0 18px 30px rgba(32,58,96,.16);flex-direction:column;align-items:stretch;gap:0;padding:8px var(--gut) 18px;max-height:calc(100vh - 120px);overflow-y:auto}
 .menu.open{display:flex}
 .menu>li>a,.menu>li>button.droptoggle{padding:13px 0;border-bottom:1px solid var(--line);width:100%;text-align:left}
@@ -236,7 +236,10 @@ article h2{font-size:25px}
 .ctaband h2{font-size:30px}
 .topbar .wrap{justify-content:center;text-align:center}
 .mapframe{height:300px}
-.logo img{width:200px;height:42px}
+.logo img{width:230px;height:37px}
 }
 main p,main li,main td{overflow-wrap:anywhere}
 .nav-menu{margin:0}
+@media (max-width:380px){.logo img{width:200px;height:32px}}
+.sitefoot,.sitefoot *{overflow-wrap:anywhere}
+.sitefoot .flogo img{max-width:100%;height:auto}
